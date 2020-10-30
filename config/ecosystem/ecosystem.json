@@ -1,26 +1,26 @@
 {
     "apps": [
         {
-            "name": "node-h5-service-dev",
+            "name": "blog-node-h5-service-dev",
             "script": "./index.web.js",
             "instances": 1,
             "exec_mode": "fork",
-            "out_file": "/tmp/node-h5/node-h5_out.log",
-            "error_file": "/tmp/node-h5/node-h5_err.log",
-            "log_file": "/tmp/node-h5/node-h5_log.log",
+            "out_file": "/tmp/blog-node-h5/blog-node-h5_out.log",
+            "error_file": "/tmp/blog-node-h5/blog-node-h5_err.log",
+            "log_file": "/tmp/blog-node-h5/blog-node-h5_log.log",
             "env": {
                 "NODE_ENV": "dev"
             },
             "watch": true
         },
         {
-            "name": "node-h5-service-production",
+            "name": "blog-node-h5-service-production",
             "script": "./index.web.js",
             "instances": 1,
             "exec_mode": "fork",
-            "out_file": "/tmp/node-h5/node-h5_out.log",
-            "error_file": "/tmp/node-h5/node-h5_err.log",
-            "log_file": "/tmp/node-h5/node-h5_log.log",
+            "out_file": "/tmp/blog-node-h5/blog-node-h5_out.log",
+            "error_file": "/tmp/blog-node-h5/blog-node-h5_err.log",
+            "log_file": "/tmp/blog-node-h5/blog-node-h5_log.log",
             "env": {
                 "NODE_ENV": "production"
             },

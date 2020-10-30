@@ -71,9 +71,9 @@
     }
 
     // 开启https服务
-    if (process.env.NODE_ENV !== "dev") {
-        await server.ssl("./config/4689301_m.xiaohuangren.top.key", "./config/4689301_m.xiaohuangren.top.pem");
-    }
+    // if (process.env.NODE_ENV !== "dev") {
+    //     await server.ssl("./config/4689301_m.xiaohuangren.top.key", "./config/4689301_m.xiaohuangren.top.pem");
+    // }
 
     await server.startup(router, port);
 

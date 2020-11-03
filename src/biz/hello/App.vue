@@ -1,7 +1,7 @@
 <template>
   <div id="hello"
        class="hello-page">
-    <section class="header">HuangLiJun's Blog</section>
+    <section class="header">HuangLiJun's Blog(haha)</section>
     <section class="navigation">
       <div class="entry"><a href="#">技术<br />思考</a></div>
       <div class="entry"><a href="#">业务<br />思考</a></div>

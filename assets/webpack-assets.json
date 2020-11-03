@@ -1,7 +1,7 @@
 {
   "error/404": {
     "js": "/assets/static/error/404-c493ae56.js",
-    "css": "/assets/static/error/404-755eeac8.css",
+    "css": "/assets/static/error/404-cdff9135.css",
     "woff": "/assets/static/8.woff"
   },
   "demo/hello": {
@@ -17,6 +17,6 @@
   },
   "hello": {
     "js": "/assets/static/hello-8d392416.js",
-    "css": "/assets/static/hello-755eeac8.css"
+    "css": "/assets/static/hello-cdff9135.css"
   }
 }
